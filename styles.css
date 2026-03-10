@@ -1,1 +1,36 @@
-
+* {
+    font-family: sans-serif;
+}
+p {
+    text-indent: 40px;
+}
+h2{
+    text-align: center;
+}
+.heading {
+    text-align: center;
+    font-family: sans-serif;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: row;
+    
+}
+.box{
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+    width: 33%;
+    padding: 10px;
+    margin: 5px;
+    border-style: solid;
+    border-color: blue;
+    border-width: 5px;
+    border-radius: 20px;
+}
+img {
+    width: 100%;
+}

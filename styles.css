@@ -1,7 +1,9 @@
 * {
   font-family: sans-serif;
+  font: medium;
   color: white;
   box-sizing: border-box;
+  line-height: normal;
 }
 body {
     background-color: rgb(36, 36, 36);
@@ -20,7 +22,7 @@ h3 {
 }
 img {
   width: 100%;
-  /*float: bottom;*/
+  float: bottom;
 }
 
 

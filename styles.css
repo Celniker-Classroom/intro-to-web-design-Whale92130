@@ -3,15 +3,18 @@
   font: medium;
   color: white;
   box-sizing: border-box;
-  line-height: normal;
 }
 body {
     background-color: rgb(36, 36, 36);
 }
-p {
+#page {
+  width: 100%;
+}
+.p {
   text-indent: 40px;
   padding: 5px;
   margin: 5px;
+  line-height: normal;
 }
 h3 {
   text-align: center;
@@ -22,7 +25,7 @@ h3 {
 }
 img {
   width: 100%;
-  float: bottom;
+  float: right;
 }
 
 

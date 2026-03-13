@@ -45,6 +45,7 @@ body:has(#darkMode:checked) {
   --text-color: #ffffff;
   --border-color: rgb(3, 72, 99);
 }
+/*https://www.youtube.com/watch?v=4S-h5iBl1jA*/
 
 .switch {
   background-color: black;
@@ -174,6 +175,16 @@ a {
 }
 
 @media (max-width: 767px) {
+  #topbar {
+    text-align: left;
+    padding-left: 10px;
+  }
+
+  #topbar .heading {
+    text-align: left;
+    margin-left: 0;
+  }
+
   .main {
     width: 100%;
     display: flex;

@@ -3,34 +3,40 @@
   --text-color: #1b1d2c;
   --border-color: rgb(105, 170, 255);
 }
+
 * {
   font-family: "Montserrat Alternates", sans-serif;
   font: medium;
   color: var(--text-color);
   box-sizing: border-box;
 }
+
 .body {
-    background-color: var(--bg-color);
-    transition: background-color 0.25s, color 0.25s;
+  background-color: var(--bg-color);
+  transition: background-color 0.25s, color 0.25s;
 }
+
 #page {
   width: 100%;
 }
 
-#topbar{
+#topbar {
   width: 100%;
   position: relative;
   padding: 10px 0;
   text-align: center;
 }
+
 #topbar .heading {
   margin: 0;
 }
+
 #DMtext {
   color: white;
   user-select: none;
 }
-input[type="checkbox"] + label {
+
+input[type="checkbox"]+label {
   color: black;
 }
 
@@ -39,6 +45,7 @@ body:has(#darkMode:checked) {
   --text-color: #ffffff;
   --border-color: rgb(3, 72, 99);
 }
+
 .switch {
   background-color: black;
   border-radius: 10px;
@@ -55,19 +62,23 @@ body:has(#darkMode:checked) {
   gap: 8px;
   white-space: nowrap;
 }
+
 .p {
   text-indent: 40px;
   padding: 5px;
   margin: 5px;
   line-height: normal;
 }
+
 h3 {
   text-align: center;
 }
+
 .heading {
   text-align: center;
   font-family: "Montserrat Alternates", sans-serif;
 }
+
 img {
   width: 100%;
   float: right;
@@ -77,13 +88,16 @@ img {
 a:link {
   color: rgb(130, 173, 226);
 }
+
 a:visited {
   color: rgb(156, 130, 226);
 }
+
 a:hover {
   color: red;
 }
-a { 
+
+a {
   text-decoration: underline;
 }
 
@@ -95,6 +109,7 @@ a {
     align-items: stretch;
     flex-direction: row;
   }
+
   .box {
     display: flex;
     justify-content: top;
@@ -109,6 +124,7 @@ a {
     border-radius: 20px;
   }
 }
+
 @media (min-width: 992px) and (max-width: 1199px) {
   .main {
     width: 100%;
@@ -117,6 +133,7 @@ a {
     align-items: stretch;
     flex-direction: row;
   }
+
   .box {
     display: flex;
     justify-content: top;
@@ -131,6 +148,7 @@ a {
     border-radius: 20px;
   }
 }
+
 @media (min-width: 768px) and (max-width: 991px) {
   .main {
     width: 100%;
@@ -139,6 +157,7 @@ a {
     align-items: stretch;
     flex-direction: column;
   }
+
   .box {
     display: flex;
     justify-content: top;
@@ -153,6 +172,7 @@ a {
     border-radius: 20px;
   }
 }
+
 @media (max-width: 767px) {
   .main {
     width: 100%;
@@ -161,6 +181,7 @@ a {
     align-items: stretch;
     flex-direction: column;
   }
+
   .box {
     display: flex;
     justify-content: top;

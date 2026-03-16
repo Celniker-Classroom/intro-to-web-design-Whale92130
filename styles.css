@@ -17,7 +17,7 @@
 }
 
 #page {
-  max-width: 1920px;
+  max-width: 1200px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -76,6 +76,10 @@ body:has(#darkMode:checked) {
 
 h3 {
   text-align: center;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-underline-offset: 7px;
+  text-decoration-thickness: 2px;
 }
 
 .heading {

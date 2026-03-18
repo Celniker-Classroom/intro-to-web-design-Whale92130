@@ -99,7 +99,10 @@ img {
   width: 100%;
   float: right;
   cursor: zoom-in;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  border-radius: 5px;
 }
 
 .fullscreen-toggle {
@@ -117,14 +120,6 @@ img {
   text-align: center;
 }
 
-.fullscreen-image img {
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  border-radius: 10px;
-  /* box-shadow: 0 4px 12px rgba(0,0,0,0.25); */
-}
-
 .fullscreen-toggle:checked ~ .fullscreen-image {
   position: fixed;
   inset: 0;
@@ -133,7 +128,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
   cursor: zoom-out;
 }
 
@@ -143,8 +137,7 @@ img {
   max-width: min(95vw, 1000px);
   max-height: 95vh;
   height: auto;
-  border-radius: 10px;
-  /* box-shadow: 0 10px 30px rgba(0,0,0,0.6); */
+  border-radius: 0px;
 }
 
 a:link {
